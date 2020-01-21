@@ -1,0 +1,109 @@
+
+body{
+    background-color: #3399cc;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid { 
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-areas:
+    "lisbon lisbon paris belgrade"
+    "moscow tel_aviv cair new_york"
+    "new_delhi san_francisco san_francisco tokyo"
+    "sydney sydney sydney sydney";
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2px ;
+    background-color: white;
+    padding: 2px 2px 2px 2px;
+    
+}
+
+.grid__lisbon{
+    grid-area: lisbon;
+    background-color: #3399cc;
+    text-align: center;
+    padding-top: 50px;
+   
+}
+
+.grid__paris{
+    grid-area: paris;
+    background-color: #33cccc;
+    text-align: center;
+    padding-top: 50px;
+}
+.grid__belgrade{
+    grid-area: belgrade;
+    background-color: #996699;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.grid__moscow{
+    grid-area: moscow;
+    background-color: #c24747;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.grid__tel_aviv{
+    grid-area: tel_aviv;
+    background-color: #e2674a;
+    text-align: center;
+    padding-top: 50px;
+}
+.grid__cair{
+    grid-area: cair;
+    background-color: #ffcc66;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.grid__new_york{
+    grid-area: new_york;
+    background-color: #99cc99;
+    text-align: center;
+    padding-top: 50px;
+}
+.grid__new_delhi{
+    grid-area: new_delhi;
+    background-color: #669999;
+    text-align: center;
+    padding-top: 50px;
+}
+.grid__san_francisco{
+    grid-area: san_francisco;
+    background-color: #cc6699;
+    text-align: center;
+    padding-top: 50px;
+}
+.grid__tokyo{
+    grid-area:tokyo;
+    background-color: #339966;
+    text-align: center;
+    padding-top: 50px;
+}
+.grid__sydney{
+    grid-area: sydney;
+    background-color: #666699;
+    text-align: center;
+    padding-top: 50px;
+}
+footer{
+    position: absolute; 
+    bottom: 10px;
+    right: 10px;
+}
